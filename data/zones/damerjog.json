@@ -1,0 +1,75 @@
+{
+  "zone_id": "damerjog",
+  "nom": "Damerjog",
+  "description": "Zone côtière sud, activité agricole existante limitée",
+  "coordonnees_polygone": [
+    [43.177, 11.475],
+    [43.197, 11.475],
+    [43.197, 11.495],
+    [43.177, 11.495],
+    [43.177, 11.475]
+  ],
+  "date_extraction": "2026-08-15T15:51:04.544635Z",
+  "niveau_confiance_global": "eleve",
+  "historique_vegetation": {
+    "2022": {
+      "ndvi": { "valeur": 0.1196, "unite": "indice sans dimension (-1 à 1)", "source": "Copernicus Sentinel-2 SR Harmonized (ESA/Copernicus, via Google Earth Engine)", "date_observation": "2022-01-01/2022-12-31", "resolution_spatiale": "10 m", "methode": "Composite médian, masquage nuageux (seuil probabilité < 40%), NDVI = (B8 - B4) / (B8 + B4), moyenne spatiale sur la zone", "statut": "calculee", "nombre_observations": 132 },
+      "ndmi": { "valeur": -0.048, "unite": "indice sans dimension (-1 à 1)", "source": "Copernicus Sentinel-2 SR Harmonized (ESA/Copernicus, via Google Earth Engine)", "date_observation": "2022-01-01/2022-12-31", "resolution_spatiale": "20 m (rééchantillonné à 10 m)", "methode": "NDMI = (B8 - B11) / (B8 + B11), même composite que le NDVI", "statut": "calculee", "nombre_observations": 132 }
+    },
+    "2023": {
+      "ndvi": { "valeur": 0.1224, "unite": "indice sans dimension (-1 à 1)", "source": "Copernicus Sentinel-2 SR Harmonized (ESA/Copernicus, via Google Earth Engine)", "date_observation": "2023-01-01/2023-12-31", "resolution_spatiale": "10 m", "methode": "Composite médian, masquage nuageux (seuil probabilité < 40%), NDVI = (B8 - B4) / (B8 + B4), moyenne spatiale sur la zone", "statut": "calculee", "nombre_observations": 122 },
+      "ndmi": { "valeur": -0.0458, "unite": "indice sans dimension (-1 à 1)", "source": "Copernicus Sentinel-2 SR Harmonized (ESA/Copernicus, via Google Earth Engine)", "date_observation": "2023-01-01/2023-12-31", "resolution_spatiale": "20 m (rééchantillonné à 10 m)", "methode": "NDMI = (B8 - B11) / (B8 + B11), même composite que le NDVI", "statut": "calculee", "nombre_observations": 122 }
+    },
+    "2024": {
+      "ndvi": { "valeur": 0.1277, "unite": "indice sans dimension (-1 à 1)", "source": "Copernicus Sentinel-2 SR Harmonized (ESA/Copernicus, via Google Earth Engine)", "date_observation": "2024-01-01/2024-12-31", "resolution_spatiale": "10 m", "methode": "Composite médian, masquage nuageux (seuil probabilité < 40%), NDVI = (B8 - B4) / (B8 + B4), moyenne spatiale sur la zone", "statut": "calculee", "nombre_observations": 118 },
+      "ndmi": { "valeur": -0.0429, "unite": "indice sans dimension (-1 à 1)", "source": "Copernicus Sentinel-2 SR Harmonized (ESA/Copernicus, via Google Earth Engine)", "date_observation": "2024-01-01/2024-12-31", "resolution_spatiale": "20 m (rééchantillonné à 10 m)", "methode": "NDMI = (B8 - B11) / (B8 + B11), même composite que le NDVI", "statut": "calculee", "nombre_observations": 118 }
+    },
+    "2025": {
+      "ndvi": { "valeur": 0.1094, "unite": "indice sans dimension (-1 à 1)", "source": "Copernicus Sentinel-2 SR Harmonized (ESA/Copernicus, via Google Earth Engine)", "date_observation": "2025-01-01/2025-12-31", "resolution_spatiale": "10 m", "methode": "Composite médian, masquage nuageux (seuil probabilité < 40%), NDVI = (B8 - B4) / (B8 + B4), moyenne spatiale sur la zone", "statut": "calculee", "nombre_observations": 169 },
+      "ndmi": { "valeur": -0.0499, "unite": "indice sans dimension (-1 à 1)", "source": "Copernicus Sentinel-2 SR Harmonized (ESA/Copernicus, via Google Earth Engine)", "date_observation": "2025-01-01/2025-12-31", "resolution_spatiale": "20 m (rééchantillonné à 10 m)", "methode": "NDMI = (B8 - B11) / (B8 + B11), même composite que le NDVI", "statut": "calculee", "nombre_observations": 169 }
+    },
+    "2026": {
+      "ndvi": { "valeur": 0.1055, "unite": "indice sans dimension (-1 à 1)", "source": "Copernicus Sentinel-2 SR Harmonized (ESA/Copernicus, via Google Earth Engine)", "date_observation": "2026-01-01/2026-08-15", "resolution_spatiale": "10 m", "methode": "Composite médian, masquage nuageux (seuil probabilité < 40%), NDVI = (B8 - B4) / (B8 + B4), moyenne spatiale sur la zone", "statut": "calculee", "nombre_observations": 112 },
+      "ndmi": { "valeur": -0.0544, "unite": "indice sans dimension (-1 à 1)", "source": "Copernicus Sentinel-2 SR Harmonized (ESA/Copernicus, via Google Earth Engine)", "date_observation": "2026-01-01/2026-08-15", "resolution_spatiale": "20 m (rééchantillonné à 10 m)", "methode": "NDMI = (B8 - B11) / (B8 + B11), même composite que le NDVI", "statut": "calculee", "nombre_observations": 112 }
+    }
+  },
+  "topographie": {
+    "elevation_m": { "valeur": 13.0, "unite": "mètres", "source": "USGS SRTM GL1 (NASA/USGS, via Google Earth Engine)", "date_observation": "2000 (mission SRTM, données statiques)", "resolution_spatiale": "30 m", "methode": "Moyenne spatiale de l'élévation SRTM sur la zone", "statut": "reelle", "nombre_observations": null },
+    "pente_deg": { "valeur": 3.49, "unite": "degrés", "source": "USGS SRTM GL1 (dérivé), via Google Earth Engine", "date_observation": "2000 (mission SRTM, données statiques)", "resolution_spatiale": "30 m", "methode": "ee.Terrain.slope() sur le DEM SRTM, moyenne spatiale sur la zone", "statut": "calculee", "nombre_observations": null }
+  },
+  "avertissement": "Analyse préliminaire basée sur l'observation satellitaire. Une vérification agronomique, hydrologique et pédologique sur le terrain reste nécessaire avant toute mise en culture.",
+  "climat": {
+    "precipitation": { "valeur": 0.78, "unite": "mm/jour (moyenne mensuelle sur la période)", "source": "NASA POWER (réanalyse MERRA-2)", "date_observation": "2022-01/2025-12", "resolution_spatiale": "~55 km x 69 km (grille globale MERRA-2, pas une mesure locale précise)", "methode": "Moyenne des précipitations mensuelles corrigées (PRECTOTCORR) sur la période", "statut": "reelle", "nombre_observations": 52 },
+    "temperature": { "valeur": 29.84, "unite": "°C (moyenne mensuelle sur la période)", "source": "NASA POWER (réanalyse MERRA-2)", "date_observation": "2022-01/2025-12", "resolution_spatiale": "~55 km x 69 km (grille globale MERRA-2)", "methode": "Moyenne des températures mensuelles à 2m (T2M) sur la période", "statut": "reelle", "nombre_observations": 52 },
+    "precipitation_annuelle": { "2022": 0.81, "2023": 0.84, "2024": 0.75, "2025": 0.73 },
+    "temperature_annuelle": { "2022": 29.46, "2023": 30.12, "2024": 30.14, "2025": 29.64 }
+  },
+  "score_potentiel": {
+    "score": 57,
+    "categorie": "potentiel_modere",
+    "niveau_confiance": "eleve",
+    "libelle": "Potentiel satellitaire estimé",
+    "detail_indicateurs": { "vegetation": 0.3014, "eau": 0.312, "temperature": 1.0, "topographie": 0.9172, "stabilite": 0.9506 },
+    "indicateurs_manquants": [],
+    "poids_utilises": { "vegetation": 0.3, "eau": 0.3, "temperature": 0.15, "topographie": 0.15, "stabilite": 0.1 },
+    "avertissement": "Ce score est un Potentiel satellitaire estimé, PAS un terrain cultivable confirmé. Une vérification agronomique, hydrologique et pédologique sur le terrain reste indispensable."
+  },
+  "analyse_qualitative": {
+    "points_favorables": [
+      "NDVI le plus élevé et le plus stable des 3 zones test",
+      "Pente très douce (3,49°), facilite l'accès et un futur aménagement",
+      "Altitude quasi nulle (13 m), proximité du littoral"
+    ],
+    "points_vigilance": [
+      "Pluviométrie la plus faible des 3 zones (0,78 mm/j)",
+      "NDMI systématiquement négatif : stress hydrique constant de la végétation",
+      "Salinité du sol probable en zone côtière, non vérifiée par satellite"
+    ],
+    "a_verifier_terrain": [
+      "Salinité et nature du sol (probablement sableux)",
+      "Disponibilité réelle en eau douce",
+      "Statut foncier et accès"
+    ],
+    "recommandation": "Zone intéressante pour une étude agricole de terrain, sous réserve de confirmation de la disponibilité en eau douce et de la salinité du sol."
+  }
+}
